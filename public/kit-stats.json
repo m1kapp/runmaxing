@@ -1,179 +1,479 @@
 {
-  "generatedAt": "2026-07-22T13:24:57.351Z",
-  "kitVersion": "0.0.37",
+  "generatedAt": "2026-11-03T14:46:33.729Z",
+  "kitVersion": "0.0.61",
   "source": {
     "dir": "",
-    "files": 25,
-    "totalLines": 2320,
-    "codeLines": 1943,
+    "files": 57,
+    "totalLines": 5130,
+    "codeLines": 4394,
     "breakdown": {
       "frontend": {
-        "files": 10,
-        "codeLines": 1155
+        "files": 29,
+        "codeLines": 2593
       },
       "backend": {
-        "files": 8,
-        "codeLines": 212
+        "files": 10,
+        "codeLines": 366
       },
       "shared": {
-        "files": 7,
-        "codeLines": 576
+        "files": 18,
+        "codeLines": 1435
       }
     }
   },
   "quality": {
     "engine": "ast2",
-    "score": 100,
-    "grade": "A+",
+    "score": 93,
+    "grade": "SS",
+    "gradeBase": "S",
+    "dead": null,
     "cognitive": {
-      "avg": 2.1,
+      "avg": 2.5,
       "p90": 6,
-      "max": 14,
-      "over15": 0,
-      "over25": 0,
+      "max": 38,
+      "over15": 10,
+      "over25": 4,
+      "top10avg": 24.5,
       "worst": [
         {
-          "name": "cardData",
-          "cog": 14,
-          "cc": 18,
-          "file": "app/u/[id]/opengraph-image.tsx",
-          "line": 51
-        },
-        {
-          "name": "flagsFor",
-          "cog": 13,
-          "cc": 16,
-          "file": "app/api/admin/anomalies/route.ts",
-          "line": 27
-        },
-        {
-          "name": "monthsValidationError",
-          "cog": 13,
-          "cc": 13,
+          "name": "(anonymous)",
+          "cog": 38,
+          "cc": 34,
           "file": "app/api/submit/route.ts",
-          "line": 61
+          "line": 117
         },
         {
-          "name": "Image",
-          "cog": 13,
-          "cc": 14,
-          "file": "app/u/[id]/opengraph-image.tsx",
+          "name": "UserPage",
+          "cog": 31,
+          "cc": 40,
+          "file": "app/u/[id]/page.tsx",
+          "line": 212
+        },
+        {
+          "name": "activityRhythm",
+          "cog": 31,
+          "cc": 20,
+          "file": "lib/rhythm.ts",
+          "line": 9
+        },
+        {
+          "name": "codexValidationError",
+          "cog": 28,
+          "cc": 20,
+          "file": "app/api/submit/route.ts",
           "line": 85
         },
         {
-          "name": "hourlyFlag",
-          "cog": 11,
-          "cc": 11,
-          "file": "app/api/admin/anomalies/route.ts",
-          "line": 10
+          "name": "claimRunner",
+          "cog": 24,
+          "cc": 22,
+          "file": "lib/runners.ts",
+          "line": 69
+        },
+        {
+          "name": "QuestionProfilePreview",
+          "cog": 19,
+          "cc": 18,
+          "file": "app/u/[id]/QuestionProfilePreview.tsx",
+          "line": 30
+        },
+        {
+          "name": "ProviderSummary",
+          "cog": 19,
+          "cc": 18,
+          "file": "app/u/[id]/page.tsx",
+          "line": 99
+        },
+        {
+          "name": "renderCard",
+          "cog": 19,
+          "cc": 20,
+          "file": "lib/card-image.tsx",
+          "line": 128
+        },
+        {
+          "name": "cardData",
+          "cog": 18,
+          "cc": 22,
+          "file": "lib/card-image.tsx",
+          "line": 89
+        },
+        {
+          "name": "(anonymous)",
+          "cog": 18,
+          "cc": 12,
+          "file": "lib/devices.ts",
+          "line": 204
         }
       ]
     },
+    "fnLength": {
+      "avg": 9.2,
+      "p90": 18,
+      "max": 168,
+      "over40": 12,
+      "over80": 4,
+      "top10avg": 110.5,
+      "countAll": 385,
+      "count5": 165,
+      "count10": 87,
+      "worst": [
+        {
+          "name": "Body",
+          "lines": 168,
+          "cog": 0,
+          "file": "app/blog/leverage-per-turn/body.tsx",
+          "line": 4
+        },
+        {
+          "name": "UserPage",
+          "lines": 141,
+          "cog": 31,
+          "file": "app/u/[id]/page.tsx",
+          "line": 212
+        },
+        {
+          "name": "Body",
+          "lines": 126,
+          "cog": 0,
+          "file": "app/blog/parallel-two-to-four/body.tsx",
+          "line": 4
+        },
+        {
+          "name": "Body",
+          "lines": 125,
+          "cog": 0,
+          "file": "app/blog/supervision-density/body.tsx",
+          "line": 4
+        },
+        {
+          "name": "Body",
+          "lines": 113,
+          "cog": 0,
+          "file": "app/blog/where-the-money-goes/body.tsx",
+          "line": 4
+        },
+        {
+          "name": "renderCard",
+          "lines": 97,
+          "cog": 19,
+          "file": "lib/card-image.tsx",
+          "line": 128
+        },
+        {
+          "name": "Body",
+          "lines": 96,
+          "cog": 0,
+          "file": "app/blog/cumulative-rank/body.tsx",
+          "line": 4
+        },
+        {
+          "name": "Body",
+          "lines": 93,
+          "cog": 0,
+          "file": "app/blog/weekly-limit/body.tsx",
+          "line": 4
+        },
+        {
+          "name": "Home",
+          "lines": 79,
+          "cog": 13,
+          "file": "app/page.tsx",
+          "line": 97
+        },
+        {
+          "name": "(anonymous)",
+          "lines": 67,
+          "cog": 38,
+          "file": "app/api/submit/route.ts",
+          "line": 117
+        }
+      ]
+    },
+    "scoreInputs": {
+      "over15Pct": 2.6,
+      "over25Pct": 1.04,
+      "p90Cog": 6,
+      "maxCog": 38,
+      "dupPct": 1,
+      "longFileSeverityPct": 0.65,
+      "avgFileLines": 77,
+      "fnOver40Pct": 3.12,
+      "fnP90": 18,
+      "fnMax": 168,
+      "fnTop10": 110.5,
+      "cogTop10": 24.5
+    },
     "duplication": {
-      "percent": 1.6,
-      "dupTokens": 241,
-      "totalTokens": 15404,
-      "blocks": 24,
+      "percent": 1,
+      "dupTokens": 308,
+      "totalTokens": 31638,
+      "blocks": 23,
       "worstFiles": [
         {
           "file": "app/api/admin/verify/route.ts",
-          "dupTokens": 119
+          "dupTokens": 117
+        },
+        {
+          "file": "app/api/admin/churn/route.ts",
+          "dupTokens": 70
         },
         {
           "file": "app/api/admin/purge/route.ts",
-          "dupTokens": 72
-        },
-        {
-          "file": "app/api/remove/route.ts",
-          "dupTokens": 50
+          "dupTokens": 70
         }
       ],
       "worstBlocks": [
         [
+          "app/api/admin/churn/route.ts:6",
           "app/api/admin/purge/route.ts:6",
           "app/api/admin/verify/route.ts:7"
         ],
         [
+          "app/api/admin/churn/route.ts:6",
           "app/api/admin/purge/route.ts:6",
           "app/api/admin/verify/route.ts:7"
         ],
         [
+          "app/api/admin/churn/route.ts:6",
           "app/api/admin/purge/route.ts:6",
           "app/api/admin/verify/route.ts:7"
         ]
-      ]
+      ],
+      "variantSkipped": 0
     },
     "io": {
-      "readers": 17,
-      "uncachedReaders": 17,
-      "loopSites": 0,
-      "uncachedLoopSites": 0,
-      "worst": []
+      "readers": 9,
+      "uncachedReaders": 7,
+      "loopSites": 2,
+      "uncachedLoopSites": 2,
+      "worst": [
+        {
+          "file": "cli/sync-scripts.js",
+          "line": 17,
+          "callee": "readdirSync"
+        },
+        {
+          "file": "cli/sync-scripts.js",
+          "line": 20,
+          "callee": "readdirSync"
+        }
+      ]
+    },
+    "textbook": {
+      "awaitInForEach": {
+        "count": 0,
+        "worst": []
+      },
+      "spreadAccumulator": {
+        "count": 0,
+        "worst": []
+      },
+      "regexInLoop": {
+        "count": 0,
+        "worst": []
+      },
+      "floatingPromise": {
+        "count": 0,
+        "worst": []
+      },
+      "loopInvariantIndex": {
+        "count": 0,
+        "worst": []
+      },
+      "sharedRefFill": {
+        "count": 0,
+        "worst": []
+      },
+      "numericSortNoComparator": {
+        "count": 0,
+        "worst": []
+      },
+      "emptyCatch": {
+        "count": 3,
+        "worst": [
+          {
+            "file": "lib/i18n.tsx",
+            "line": 200
+          },
+          {
+            "file": "lib/store.ts",
+            "line": 81
+          },
+          {
+            "file": "lib/store.ts",
+            "line": 150
+          }
+        ]
+      },
+      "statefulRegex": {
+        "count": 0,
+        "worst": []
+      },
+      "forInArray": {
+        "count": 0,
+        "worst": []
+      }
+    },
+    "typeSafety": {
+      "tsFiles": 52,
+      "totalAnnots": 1177,
+      "anyType": {
+        "count": 111,
+        "pct": 9.4,
+        "worst": [
+          {
+            "file": "app/api/admin/anomalies/route.ts",
+            "line": 10
+          },
+          {
+            "file": "app/api/admin/anomalies/route.ts",
+            "line": 12
+          },
+          {
+            "file": "app/api/admin/anomalies/route.ts",
+            "line": 27
+          },
+          {
+            "file": "app/api/admin/anomalies/route.ts",
+            "line": 27
+          },
+          {
+            "file": "app/api/admin/anomalies/route.ts",
+            "line": 52
+          },
+          {
+            "file": "app/api/admin/churn/route.ts",
+            "line": 7
+          }
+        ]
+      },
+      "asAny": {
+        "count": 0,
+        "worst": []
+      },
+      "nonNull": {
+        "count": 11,
+        "worst": [
+          {
+            "file": "app/blog/cumulative-rank/page.tsx",
+            "line": 5,
+            "text": "bySlug(\"cumulative-rank\")!"
+          },
+          {
+            "file": "app/blog/leverage-per-turn/page.tsx",
+            "line": 5,
+            "text": "bySlug(\"leverage-per-turn\")!"
+          },
+          {
+            "file": "app/blog/parallel-two-to-four/page.tsx",
+            "line": 5,
+            "text": "bySlug(\"parallel-two-to-four\")!"
+          },
+          {
+            "file": "app/blog/supervision-density/page.tsx",
+            "line": 5,
+            "text": "bySlug(\"supervision-density\")!"
+          },
+          {
+            "file": "app/blog/weekly-limit/page.tsx",
+            "line": 5,
+            "text": "bySlug(\"weekly-limit\")!"
+          },
+          {
+            "file": "app/blog/where-the-money-goes/page.tsx",
+            "line": 5,
+            "text": "bySlug(\"where-the-money-goes\")!"
+          }
+        ]
+      },
+      "tsIgnore": {
+        "count": 0,
+        "worst": []
+      }
+    },
+    "testDensity": {
+      "files": 4,
+      "lines": 366,
+      "percent": null
+    },
+    "quadratic": {
+      "sites": 0,
+      "candidates": 0,
+      "zones": {},
+      "worst": [],
+      "candidateList": [],
+      "files": []
     },
     "renderGates": {
       "hostages": 0,
       "worst": []
     },
     "cc": {
-      "functions": 226,
-      "avg": 3,
+      "functions": 385,
+      "avg": 3.3,
       "p90": 7,
-      "max": 18,
-      "over10": 8,
-      "over20": 0,
+      "max": 40,
+      "over10": 17,
+      "over20": 4,
       "worst": [
         {
-          "name": "cardData",
-          "cc": 18,
-          "file": "app/u/[id]/opengraph-image.tsx",
-          "line": 51
-        },
-        {
-          "name": "flagsFor",
-          "cc": 16,
-          "file": "app/api/admin/anomalies/route.ts",
-          "line": 27
-        },
-        {
-          "name": "Image",
-          "cc": 14,
-          "file": "app/u/[id]/opengraph-image.tsx",
-          "line": 85
-        },
-        {
-          "name": "monthsValidationError",
-          "cc": 13,
-          "file": "app/api/submit/route.ts",
-          "line": 61
+          "name": "UserPage",
+          "cc": 40,
+          "file": "app/u/[id]/page.tsx",
+          "line": 212
         },
         {
           "name": "(anonymous)",
-          "cc": 12,
+          "cc": 34,
           "file": "app/api/submit/route.ts",
-          "line": 82
+          "line": 117
+        },
+        {
+          "name": "cardData",
+          "cc": 22,
+          "file": "lib/card-image.tsx",
+          "line": 89
+        },
+        {
+          "name": "claimRunner",
+          "cc": 22,
+          "file": "lib/runners.ts",
+          "line": 69
+        },
+        {
+          "name": "codexValidationError",
+          "cc": 20,
+          "file": "app/api/submit/route.ts",
+          "line": 85
         }
       ]
     },
-    "branchDensity": 24.4,
-    "branches": 475,
-    "functions": 233,
-    "avgFileLines": 78,
-    "longFiles": 0,
+    "branchDensity": 21.6,
+    "branches": 949,
+    "functions": 390,
+    "avgFileLines": 77,
+    "longFiles": 1,
     "maxFile": {
-      "path": "app/u/[id]/wrapped/page.tsx",
-      "lines": 191
+      "path": "app/u/[id]/page.tsx",
+      "lines": 372
     }
   },
   "kit": {
     "features": [
       {
         "name": "Watermark",
-        "loc": 190,
+        "loc": 205,
         "category": "component"
       },
       {
         "name": "Select",
-        "loc": 109,
+        "loc": 139,
+        "category": "component"
+      },
+      {
+        "name": "KitStyles",
+        "loc": 98,
         "category": "component"
       },
       {
@@ -183,7 +483,7 @@
       },
       {
         "name": "AppShell",
-        "loc": 78,
+        "loc": 76,
         "category": "component"
       },
       {
@@ -192,18 +492,23 @@
         "category": "component"
       },
       {
+        "name": "useCopy",
+        "loc": 67,
+        "category": "hook"
+      },
+      {
         "name": "Button",
         "loc": 61,
         "category": "component"
       },
       {
-        "name": "CodeBlock",
-        "loc": 37,
+        "name": "TabBar",
+        "loc": 44,
         "category": "component"
       },
       {
-        "name": "Badge",
-        "loc": 35,
+        "name": "CodeBlock",
+        "loc": 37,
         "category": "component"
       },
       {
@@ -232,25 +537,25 @@
         "category": "component"
       }
     ],
-    "savedLines": 769,
-    "savedKB": 30,
-    "savedA4": 10,
-    "savedPercent": 28,
+    "savedLines": 986,
+    "savedKB": 39,
+    "savedA4": 12,
+    "savedPercent": 18,
     "usage": {
       "component": {
-        "used": 17,
-        "total": 60,
-        "percent": 28
+        "used": 19,
+        "total": 64,
+        "percent": 30
       },
       "hook": {
-        "used": 0,
-        "total": 13,
-        "percent": 0
+        "used": 1,
+        "total": 14,
+        "percent": 7
       },
       "util": {
-        "used": 1,
-        "total": 26,
-        "percent": 4
+        "used": 0,
+        "total": 48,
+        "percent": 0
       }
     }
   }
