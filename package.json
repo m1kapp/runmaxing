@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@m1kapp/kit": "^0.0.61",
-    "next": "^15.5.22",
+    "next": "^16.4.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
